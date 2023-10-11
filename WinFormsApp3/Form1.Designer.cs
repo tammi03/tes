@@ -62,11 +62,23 @@
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(352, 206);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1000, 562);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            ClientSize = new Size(800, 450);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
